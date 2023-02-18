@@ -24,6 +24,7 @@ export default function MyApp({ Component, pageProps }) {
             <Navbar />
             <Component {...pageProps} />
             <Footer />
+            <Script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"/>
             <Script id="bootstrap-cdn" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" />
             <Script src="/js/jQuery.headroom.js"/>
             <Script src="/js/popper.min.js"/>
