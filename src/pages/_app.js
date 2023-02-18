@@ -54,8 +54,8 @@ export default function MyApp({ Component, pageProps }) {
           window.$ = window.jQuery = require("jquery");
         }}
       />
-      <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" />
-      <Script src="/js/jQuery.headroom.js" />
+      <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"/>
+      <Script src="/js/jQuery.headroom.js"/>
       <Script
         src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         onLoad={() => {
@@ -65,16 +65,15 @@ export default function MyApp({ Component, pageProps }) {
             margin: 10,
             nav: true,
           });
-          $(".social-links a").tooltip();
         }}
       />
       <Script src="/js/popper.min.js" />
-      <Script src="/js/Headroom.js" />
+      <Script src="/js/Headroom.js" 
+        onLoad={() => {
+            $(".navbar").headroom();
+        }}/>
       <Script src="/js/smoothscroll.js" />
-      <Script
-        src="/js/custom.js"
-        onLoad={() => console.log("custom.js loaded")}
-      />
+      <Script src="/js/custom.js"/>
     </>
   );
 }

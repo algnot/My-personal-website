@@ -45,7 +45,7 @@
   });
 
   // HEADER
-  $(".navbar").headroom();
+  // $(".navbar").headroom();
 
   // SMOOTHSCROLL
   $(function () {
@@ -62,16 +62,5 @@
       event.preventDefault();
     });
   });
-
-  // TOOLTIP
-  $(".social-links a").tooltip();
-
-  // PROJECT CAROUSEL
-  // $(".owl-carousel").owlCarousel({
-  //   items: 1,
-  //   loop: true,
-  //   margin: 10,
-  //   nav: true,
-  // });
 
 })(jQuery);
