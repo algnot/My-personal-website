@@ -64,7 +64,7 @@
   });
 
   // TOOLTIP
-  // $(".social-links a").tooltip();
+  $(".social-links a").tooltip();
 
   // PROJECT CAROUSEL
   // $(".owl-carousel").owlCarousel({
