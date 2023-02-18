@@ -24,7 +24,7 @@ export default function About() {
                 <span className="mobile-block">my portfolio website!</span>
               </small>
               <h1 className="animated animated-text">
-                <span className="mr-2">Hello World, I'm</span>
+                <span className="mr-2">Hello World, I'm </span>
                 <div className="animated-info">
                   <span className="animated-item">Tongla.</span>
                   <span className="animated-item">Developer.</span>
