@@ -34,7 +34,7 @@ export default function Project() {
                     src="images/project/project-image03.png"
                     className="img-fluid"
                     alt="project image"
-                  />
+                  /> 
                 </div>
               </div>
               <div className="item">
