@@ -1,4 +1,6 @@
 import '../styles/globals.css'
+import '../styles/owl.carousel.min.css'
+import '../styles/owl.theme.default.min.css'
 import '../styles/unicons.css'
 import '../styles/tooplate-style.css'
 import Head from 'next/head'
@@ -31,10 +33,10 @@ export default function MyApp({ Component, pageProps }) {
             <Component {...pageProps} />
             <Footer />
             <Script id="bootstrap-cdn" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" />
-            <Script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"/>
             <Script src="/js/jQuery.headroom.js"/>
             <Script src="/js/popper.min.js"/>
             <Script src="/js/Headroom.js"/>
+            <Script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"/>
             <Script src="/js/smoothscroll.js"/>
             <Script src="/js/custom.js"/>
         </>
