@@ -49,7 +49,7 @@ export default function Contact() {
           <div className="col-lg-6 col-12">
             <div className="contact-form">
               <h2 className="mb-4">Interested to work together? Let's talk</h2>
-              <form action method="get">
+              <form>
                 <div className="row">
                   <div className="col-lg-6 col-12">
                     <input
